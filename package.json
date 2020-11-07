@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc --watch"
+    "compile": "tsc --watch"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/gergokutu/zanzaTS/issues"
   },
-  "homepage": "https://github.com/gergokutu/zanzaTS#readme"
+  "homepage": "https://github.com/gergokutu/zanzaTS#readme",
+  "dependencies": {
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  }
 }

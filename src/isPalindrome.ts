@@ -11,4 +11,4 @@ const isPalindrome = (word: string): boolean => {
   return true;
 };
 
-console.log(isPalindrome("faafaa"));
+console.log(isPalindrome("faafaaf"));
