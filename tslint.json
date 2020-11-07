@@ -1,13 +1,16 @@
 {
-  "defaultSeverity": "error",
-  "extends": ["tslint:recommended"],
-  "jsRules": {},
-  "rules": {
-    "no-console": {
-      "severity": "off",
-      "options": ["debug", "info", "log", "time", "timeEnd", "trace"]
-    },
-    "quotemark": [true, "single"]
-  },
-  "rulesDirectory": []
+	"defaultSeverity": "error",
+	"extends": ["tslint:recommended"],
+	"jsRules": {},
+	"rules": {
+		"no-console": {
+			"severity": "off",
+			"options": ["debug", "info", "log", "time", "timeEnd", "trace"]
+		},
+		"quotemark": [true, "single"],
+		"max-line-length": {
+			"options": [80]
+		}
+	},
+	"rulesDirectory": []
 }
