@@ -1,0 +1,21 @@
+{
+  "name": "zanza-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gergokutu/zanzaTS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gergokutu/zanzaTS/issues"
+  },
+  "homepage": "https://github.com/gergokutu/zanzaTS#readme"
+}
