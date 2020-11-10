@@ -3,7 +3,7 @@ const isPalindrome = (word: string): boolean => {
 	let char: string = word[index];
 	const length: number = word.length;
 
-	for (let i: number = length - 1; i > 0; i--) {
+	for (let i: number = length - 1; i >= length / 2; i--) {
 		if (word[i] !== char) return false;
 		char = word[++index];
 	}
