@@ -9,6 +9,10 @@ console.log('Str 1:', idStringV1);
 // Let the interface set the T to string by the passed argument
 const idStringV2 = identity('Hohohhooo');
 console.log('Str 2:', idStringV2);
+// When to use the following???
+const idStringV3: <T>(arg: T) => T = identity;
+const idStringV3Saved = idStringV3('Hohohhooo');
+console.log('Str 3:', idStringV3Saved);
 
 // Arrow function version
 const identityArrow = <T>(arg: T): T => arg;
